@@ -55,7 +55,7 @@ For iPhone users, go to the App Store on your phone and install Expo Go. For And
 Everything should now be set up! The following steps will be used frequently when working on the project:
 
 ### 7. Running the app
-In the terminal, run the following command:
+In the terminal, cd to the GopherTunnel folder and run the following command:
 		
 	npx expo start
 	
