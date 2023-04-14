@@ -38,7 +38,6 @@ Enter the following commands in the terminal or Git Bash:
 	git config --global user.name "your github username"
 	
 ### 4. VS Code Extensions (optional but recommended)
-- React Native Tools: Debugging and commands
 - Git Graph **(highly recommended)**: Graphical view of the branches of a GitHub repository
 	
 ### 5. Clone the repository
@@ -51,17 +50,24 @@ If VS Code asks you to automatically run git fetch, choose yes.
 ### 6. Install Expo Go 
 For iPhone users, go to the App Store on your phone and install Expo Go. For Android users, install Expo from the Google Play Store.
 
+### 7. Install dependencies for the app
+In the terminal, cd to the GopherTunnel folder and run the following command:
+
+	npm install
+	
+This will install the packages used in the app, such as Expo, React Navigation, and other useful packages.
+
 ##
 Everything should now be set up! The following steps will be used frequently when working on the project:
 
-### 7. Running the app
+### 8. Running the app
 In the terminal, cd to the GopherTunnel folder and run the following command:
 		
 	npx expo start
 	
 This will initialize the app, and a QR code will appear in the terminal. Scan it in the Expo app to launch it on your phone. If you make any changes to the app, press 'r' in the terminal to refresh it.
 	
-### 8. Checking out to a new branch
+### 9. Checking out to a new branch
 If you plan on making any changes, do so within a new branch. 
 
 On the Source Control tab in VS Code, go to
