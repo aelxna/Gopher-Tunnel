@@ -1,7 +1,7 @@
 import React from 'react';
-import {IconButton} from 'react-native-paper';
-import {DrawerActions, useNavigation} from '@react-navigation/native';
-import {useCallback} from 'react';
+import { IconButton } from 'react-native-paper';
+import { DrawerActions, useNavigation } from '@react-navigation/native';
+import { useCallback } from 'react';
 
 export default function MenuIcon() {
   const navigation = useNavigation();
