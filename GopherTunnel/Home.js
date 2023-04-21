@@ -14,7 +14,7 @@ import Map from './Map';
 export default function Home({ navigation }) {
   const Stack = createStackNavigator();
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: '#ffffff' }}>
       <View style={{ flexDirection: "row", alignItems: "flex-end" }}>
         <MenuIcon />
         <Title style={base.header}>

@@ -7,6 +7,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 import base from './styles/base';
 import DijkstraLauncher from './scripts/linked';
+import colors from './styles/colors';
 
 export default function Map({ navigation, route }) {
     let output = "";
@@ -22,6 +23,7 @@ export default function Map({ navigation, route }) {
         </Text>
         <Button mode="contained"
           onPress={() => navigation.navigate('RouteSearch')}
+          style={colors.button}
         >
           Find New Route
         </Button>

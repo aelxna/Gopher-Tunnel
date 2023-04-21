@@ -4,7 +4,9 @@ export default StyleSheet.create({
   centered: {
     flex: 1,
     flexDirection: 'column',
-    alignItems: 'center'
+    alignItems: 'center', 
+    backgroundColor: '#ffffff',
+    paddingHorizontal: 10
   },
   routeButton: {
     flex: 1,

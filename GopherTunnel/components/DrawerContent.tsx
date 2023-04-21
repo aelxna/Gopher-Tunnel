@@ -9,6 +9,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { StyleSheet, Text, View } from 'react-native';
 import { IconButton } from 'react-native-paper';
 import Settings from '../Settings'
+import colors from '../styles/colors';
 
 
 

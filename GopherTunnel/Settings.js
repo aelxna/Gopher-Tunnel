@@ -8,7 +8,7 @@ import base from './styles/base';
 
 export default function Settings() {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: '#ffffff' }}>
       <View style={{ flexDirection: "row", alignItems: "flex-end" }}>
         <MenuIcon />
         <Title style={base.header}>
