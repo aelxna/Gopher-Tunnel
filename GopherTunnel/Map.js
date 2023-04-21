@@ -6,11 +6,12 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 import base from './styles/base';
+import DijkstraLauncher from './scripts/linked';
 
 export default function Map({ navigation, route }) {
     let output = "";
     if (route.params.startNode) {
-        output = route.params.startNode + " " + route.params.endNode;
+        output = DijkstraLauncher(route.params.startNode, route.params.endNode);
     } else {
         output = "Find a route to begin";
     }

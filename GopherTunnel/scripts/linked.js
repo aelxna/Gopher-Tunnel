@@ -132,12 +132,21 @@ class PriorityQueue {
   }
 }
 
-const startNode = "Point 13";
-const endNode = "Point 14";
-const shortestPath = dijkstra(locations, startNode, endNode);
+export default function DijkstraLauncher(startNode, endNode) {
+  const shortestPath = dijkstra(locations, startNode, endNode);
+  return (
+    `The shortest path from ${startNode} to ${endNode} is: ${shortestPath.join(
+      " -> "
+    )}`
+  );
+}
 
-console.log(
-  `The shortest path from ${startNode} to ${endNode} is: ${shortestPath.join(
-    " -> "
-  )}`
-);
+// const startNode = "Point 13";
+// const endNode = "Point 14";
+// const shortestPath = dijkstra(locations, startNode, endNode);
+
+// console.log(
+//   `The shortest path from ${startNode} to ${endNode} is: ${shortestPath.join(
+//     " -> "
+//   )}`
+// );
